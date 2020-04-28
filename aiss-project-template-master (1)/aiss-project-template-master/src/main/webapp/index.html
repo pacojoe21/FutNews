@@ -1,20 +1,36 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello World</title>
-  </head>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="https://kit.fontawesome.com/c1ad27ff32.js"
+	crossorigin="anonymous"></script>
+<title>FutNews Home</title>
 
-  <body>
-    <h1>Hello World!</h1>
+</head>
+
+<body>
+	<div class="header">
+		<div class="header_interno">
+			<div class=logo_container>
+				<h1>
+					Fut<span>News</span>
+				</h1>
+			</div>
+
+			
+		</div>
+	</div>
 	
-    <table>
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
-      </tr>
-      <tr>
-        <td><a href="helloworld">HelloWorld</a></td>
-      </tr>
-    </table>
-  </body>
+		<div class="search-box">
+			<form id="searchForm" action="TeamController" method="post">
+				<input class="search-txt" type="text" name=""
+					placeholder="Buscar un equipo"> <a class="search-btn">
+					<i class="fas fa-search"></i>
+				</a>
+			</form>
+		</div>
+	
+</body>
 </html>
