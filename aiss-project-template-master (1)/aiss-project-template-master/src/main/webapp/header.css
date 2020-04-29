@@ -1,6 +1,8 @@
-*{
+header{
 	margin: 0;
 	padding: 0;
+	top:0;
+	left:0;
 	list-style: none;
 	text-decoration: none;
 }
@@ -11,36 +13,12 @@
 	display: block;
 	background-color: #101010;
 }
-.header_interno{
-	width:1000px;
-	height: 100%;
-	display:block;
-	margin: 0 auto;
-	
-	
-}
-.logo_container{
-	height: 100%;
-	display: table;
-	float: left;
-	
-	
-}
-.logo_container h1{
-	color: white;
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 32px;
-	font-family: arial;
-	font-weight: 200;
-}
-.logo_container h1 span{
-font-weight: 800;
-}	
-
-
-	
+#logotipo{
+	float:left;
+	margin-top:-40px;
+	margin-left:0px;
+	height:200px;
+	width:200px;
 }
 	
 
